@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+    <!-- Allows the webpage to scale properly on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title that appears in the browser tab -->
+    <title>W3 Assignment: Web Page</title>
+
+    <!-- Links the external CSS file to style this webpage -->
+    <link rel="stylesheet" href="hexmilktea.css">
+</head>
+
+<body>
+    <!-- 
+        The body contains all content that will be visible to users.
+    -->
+
+    <!-- 
+        The header contains the main title and subtitle of the website.
+        This helps users immediately understand what the site is about.
+    -->
+    <header>
+        <h1>HexMilkTea Café</h1>
+        <p>A cozy tea lounge for games, chats, and calm vibes</p>
+    </header>
+
+    
+    <!-- 
+        The navigation section contains links that allow users
+        to move to different sections of the page.
+    -->
+    <nav>
+        <ul>
+            <!-- Each list item represents one navigation link -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#streams">Streams</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    
+    <!-- 
+        The main section contains the primary content of the webpage.
+    -->
+    <main>
+
+        <!-- ================= INTRODUCTION SECTION ================= -->
+        <!-- 
+            This section introduces the website to the user.
+            It includes an image, a heading, descriptive text,
+            and a link to the Twitch channel.
+        -->
+        <section id="home">
+
+            <!-- 
+                Displays the main image for the introduction section.
+                The alt text provides a description for accessibility.
+            -->
+            <img src="images/hexmilktea-banner.jpg"
+                 alt="Magical tea lounge illustration for HexMilkTea Café"
+                 class="intro-image">
+
+            <!-- Section heading -->
+            <h2>Welcome to HexMilkTea’s Cozy Café</h2>
+
+            <!-- Description text explaining the purpose of the site -->
+            <p>
+                A comfy-cozy horror café where games, chats, and late-night vibes live.
+            </p>
+
+            <!-- Link that takes users to the Twitch channel -->
+            <p>
+                <a href="https://www.twitch.tv/" target="_blank">
+                    Watch Live on Twitch
+                </a>
+            </p>
+
+        </section>
+
+        <!-- 
+            This section provides information about what users can find
+            on the site, presented in a menu-style format.
+        -->
+        <section>
+
+            <!-- Section heading -->
+            <h2>Tonight’s Menu</h2>
+
+            <!-- Information about live streams -->
+            <p id="streams">
+                <strong>Steeping Now:</strong><br>
+                Live cozy horror and chill streams
+            </p>
+
+            <!-- Information about the community -->
+            <p id="community">
+                <strong>The Tea Room:</strong><br>
+                A welcoming late-night community
+            </p>
+
+            <!-- Information about the overall vibe of the channel -->
+            <p id="about">
+                <strong>Evening Blend:</strong><br>
+                Comfort games and calm vibes
+            </p>
+
+        </section>
+
+    </main>
+
+ 
+    <!-- 
+        The footer appears at the bottom of the page.
+        It contains copyright information and references to platforms.
+    -->
+    <footer>
+        <p>© 2026 HexMilkTea Café</p>
+        <p>Twitch • Discord • Community</p>
+    </footer>
+
+</body>
+</html>

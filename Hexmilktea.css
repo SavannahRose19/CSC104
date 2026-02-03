@@ -1,0 +1,160 @@
+/* Controls the overall appearance of the webpage */
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  background-color: #120E18;
+  color: whitesmoke;
+}
+
+
+/* Styles the header section */
+header 
+{
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #D8B87C;
+}
+
+/* Main site title */
+header h1 
+{
+  margin: 0;
+  font-size: 2.5em;
+  color: whitesmoke;
+  text-shadow: 0 0 8px #D000F0;
+}
+
+/* Subtitle text below the title */
+header p 
+{
+  margin-top: 10px;
+  color: #E2DCD6;
+  font-style: italic;
+}
+
+
+/* Navigation bar background and spacing */
+nav 
+{
+  background-color: #1A141E;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Removes bullets from the navigation list */
+nav ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Displays navigation items in a row */
+nav li 
+{
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* Navigation links */
+nav a 
+{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Changes navigation link color on hover */
+nav a:hover 
+{
+  color: #B38DCD;
+}
+
+
+/* Adds spacing around the main content */
+main 
+{
+  padding: 40px;
+}
+
+/* Styles each content section */
+section 
+{
+  margin-bottom: 40px;
+
+  /* Tea green background with slight transparency */
+  background-color: rgba(43, 47, 37, 0.9);
+
+  padding: 25px;
+
+  /* Rounded corners for a soft look */
+  border-radius: 12px;
+
+  /* Light shadow to separate sections from background */
+  box-shadow: 0 0 15px #111;
+}
+
+/* Section headings */
+section h2 
+{
+  color: white;
+  text-align: center;
+}
+
+/* Paragraph text inside sections */
+section p 
+{
+  color: #E2DCD6;
+  text-align: center;
+}
+
+
+
+/* Styles links inside the main content area */
+main a 
+{
+  color: #D8B87C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Changes link color when hovered */
+main a:hover 
+{
+  color: #B38DCD;
+}
+
+
+/* Controls the appearance of the introduction image */
+.intro-image 
+{
+  width: 100%;
+  max-width: 900px;
+
+  /* Centers the image */
+  display: block;
+  margin: 0 auto 25px;
+
+  /* Rounded corners */
+  border-radius: 12px;
+
+  border: 1px solid #D8B87C;
+
+ box-shadow: 0 0 20px #432650;
+}
+
+
+/* Footer background and text styling */
+footer 
+{
+  background-color: #1A141E;
+  text-align: center;
+  padding: 20px;
+
+  color: #E2DCD6;
+  font-size: 14px;
+
+  border-top: 1px solid #D8B87C;
+}
